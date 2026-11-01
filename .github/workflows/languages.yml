@@ -23,18 +23,28 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-      - name: Generate aggregate card
+      - name: Generate and publish aggregate card
         env:
           PRIVATE_STATS_TOKEN: ${{ secrets.PRIVATE_STATS_TOKEN }}
           PROFILE_OWNER: ${{ github.repository_owner }}
-        run: python3 scripts/update_languages.py
-      - name: Commit updated card
         run: |
-          git add assets/top-languages.svg
-          if git diff --cached --quiet; then
-            exit 0
-          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Refresh language card'
-          git push
+          for attempt in 1 2 3; do
+            # This is a disposable Actions checkout. Discard only this job's
+            # previous generated commit and regenerate from the latest main.
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/update_languages.py
+            git add assets/top-languages.svg
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m 'Refresh language card'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push failed on attempt ${attempt}; retrying from latest main."
+          done
+          echo 'Unable to publish the language card after 3 attempts.' >&2
+          exit 1
