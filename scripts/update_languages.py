@@ -12,6 +12,7 @@ from urllib.request import Request, urlopen
 
 API = "https://api.github.com"
 COLORS = ["#3572A5", "#f1e05a", "#563d7c", "#e34c26", "#b07219", "#00ADD8"]
+LANGUAGE_COLORS = {"JavaScript": "#f1e05a", "TypeScript": "#3572A5"}
 
 
 def get(path, token):
@@ -69,7 +70,7 @@ def render(totals, timestamp):
              '<g font-family="Arial, sans-serif"><text x="24" y="35" fill="#fff" font-size="18" font-weight="600">Most Used Languages</text>']
     x = 24.0
     for index, (language, value) in enumerate(languages):
-        color = COLORS[index] if index < len(COLORS) else "#8b949e"
+        color = LANGUAGE_COLORS.get(language, COLORS[index] if index < len(COLORS) else "#8b949e")
         width = 447 * value / total
         parts.append(f'<rect x="{x:.3f}" y="55" width="{width:.3f}" height="9" fill="{color}"/>')
         x += width

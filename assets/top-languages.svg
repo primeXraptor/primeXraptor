@@ -3,10 +3,10 @@
 <desc id="desc">Language bytes across accessible owned public and private repositories, excluding forks.</desc>
 <rect x="0.5" y="0.5" width="494" height="205" rx="6" fill="#151515" stroke="#c9d1d9"/>
 <g font-family="Arial, sans-serif"><text x="24" y="35" fill="#fff" font-size="18" font-weight="600">Most Used Languages</text>
-<rect x="24.000" y="55" width="243.121" height="9" fill="#3572A5"/>
-<circle cx="29" cy="85" r="5" fill="#3572A5"/><text x="40" y="89" fill="#b8b8b8" font-size="12">JavaScript 54.39%</text>
-<rect x="267.121" y="55" width="107.084" height="9" fill="#f1e05a"/>
-<circle cx="261" cy="85" r="5" fill="#f1e05a"/><text x="272" y="89" fill="#b8b8b8" font-size="12">TypeScript 23.96%</text>
+<rect x="24.000" y="55" width="243.121" height="9" fill="#f1e05a"/>
+<circle cx="29" cy="85" r="5" fill="#f1e05a"/><text x="40" y="89" fill="#b8b8b8" font-size="12">JavaScript 54.39%</text>
+<rect x="267.121" y="55" width="107.084" height="9" fill="#3572A5"/>
+<circle cx="261" cy="85" r="5" fill="#3572A5"/><text x="272" y="89" fill="#b8b8b8" font-size="12">TypeScript 23.96%</text>
 <rect x="374.205" y="55" width="26.074" height="9" fill="#563d7c"/>
 <circle cx="29" cy="109" r="5" fill="#563d7c"/><text x="40" y="113" fill="#b8b8b8" font-size="12">Rust 5.83%</text>
 <rect x="400.279" y="55" width="25.510" height="9" fill="#e34c26"/>
