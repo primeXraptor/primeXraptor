@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="110" role="img" aria-labelledby="title desc">
+  <title id="title">Most Used Languages</title>
+  <desc id="desc">Private repository language statistics are awaiting the first authenticated refresh.</desc>
+  <rect x="0.5" y="0.5" width="494" height="109" rx="6" fill="#151515" stroke="#c9d1d9"/>
+  <g font-family="Arial, sans-serif" fill="#fff">
+    <text x="24" y="35" font-size="18" font-weight="600">Most Used Languages</text>
+    <text x="24" y="72" font-size="13" fill="#b8b8b8">Awaiting first authenticated refresh</text>
+  </g>
+</svg>
