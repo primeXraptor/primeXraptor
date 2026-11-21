@@ -3,18 +3,18 @@
 <desc id="desc">Language bytes across accessible owned public and private repositories, excluding forks.</desc>
 <rect x="0.5" y="0.5" width="494" height="205" rx="6" fill="#151515" stroke="#c9d1d9"/>
 <g font-family="Arial, sans-serif"><text x="24" y="35" fill="#fff" font-size="18" font-weight="600">Most Used Languages</text>
-<rect x="24.000" y="55" width="251.119" height="9" fill="#f1e05a"/>
-<circle cx="29" cy="85" r="5" fill="#f1e05a"/><text x="40" y="89" fill="#b8b8b8" font-size="12">JavaScript 56.18%</text>
-<rect x="275.119" y="55" width="116.417" height="9" fill="#3572A5"/>
-<circle cx="261" cy="85" r="5" fill="#3572A5"/><text x="272" y="89" fill="#b8b8b8" font-size="12">TypeScript 26.04%</text>
-<rect x="391.536" y="55" width="27.478" height="9" fill="#563d7c"/>
+<rect x="24.000" y="55" width="250.804" height="9" fill="#f1e05a"/>
+<circle cx="29" cy="85" r="5" fill="#f1e05a"/><text x="40" y="89" fill="#b8b8b8" font-size="12">JavaScript 56.11%</text>
+<rect x="274.804" y="55" width="116.552" height="9" fill="#3572A5"/>
+<circle cx="261" cy="85" r="5" fill="#3572A5"/><text x="272" y="89" fill="#b8b8b8" font-size="12">TypeScript 26.07%</text>
+<rect x="391.355" y="55" width="27.472" height="9" fill="#563d7c"/>
 <circle cx="29" cy="109" r="5" fill="#563d7c"/><text x="40" y="113" fill="#b8b8b8" font-size="12">CSS 6.15%</text>
-<rect x="419.014" y="55" width="17.888" height="9" fill="#e34c26"/>
-<circle cx="261" cy="109" r="5" fill="#e34c26"/><text x="272" y="113" fill="#b8b8b8" font-size="12">Rust 4.00%</text>
-<rect x="436.902" y="55" width="17.283" height="9" fill="#b07219"/>
-<circle cx="29" cy="133" r="5" fill="#b07219"/><text x="40" y="137" fill="#b8b8b8" font-size="12">HTML 3.87%</text>
-<rect x="454.185" y="55" width="7.182" height="9" fill="#00ADD8"/>
-<circle cx="261" cy="133" r="5" fill="#00ADD8"/><text x="272" y="137" fill="#b8b8b8" font-size="12">PLpgSQL 1.61%</text>
-<rect x="461.366" y="55" width="9.634" height="9" fill="#8b949e"/>
-<circle cx="29" cy="157" r="5" fill="#8b949e"/><text x="40" y="161" fill="#b8b8b8" font-size="12">Other 2.16%</text>
-<text x="24" y="191" fill="#8b949e" font-size="10">Public + private · updated 2026-11-21 07:16 UTC</text></g></svg>
+<rect x="418.827" y="55" width="17.852" height="9" fill="#e34c26"/>
+<circle cx="261" cy="109" r="5" fill="#e34c26"/><text x="272" y="113" fill="#b8b8b8" font-size="12">Rust 3.99%</text>
+<rect x="436.679" y="55" width="17.249" height="9" fill="#b07219"/>
+<circle cx="29" cy="133" r="5" fill="#b07219"/><text x="40" y="137" fill="#b8b8b8" font-size="12">HTML 3.86%</text>
+<rect x="453.928" y="55" width="7.458" height="9" fill="#00ADD8"/>
+<circle cx="261" cy="133" r="5" fill="#00ADD8"/><text x="272" y="137" fill="#b8b8b8" font-size="12">PLpgSQL 1.67%</text>
+<rect x="461.386" y="55" width="9.614" height="9" fill="#8b949e"/>
+<circle cx="29" cy="157" r="5" fill="#8b949e"/><text x="40" y="161" fill="#b8b8b8" font-size="12">Other 2.15%</text>
+<text x="24" y="191" fill="#8b949e" font-size="10">Public + private · updated 2026-11-21 19:21 UTC</text></g></svg>
